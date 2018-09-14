@@ -1,0 +1,11 @@
+{
+    "elements": {
+        "app-empleado": {},
+        "router-outlet": {}
+    },
+    "attributes": {
+        "routerlink": {
+            "context": "a"
+        }
+    }
+}
