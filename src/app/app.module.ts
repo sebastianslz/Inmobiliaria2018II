@@ -7,13 +7,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { AsistenteVentaComponent } from './asistente-venta/asistente-venta.component';
 import { AsistenteArrendamientoComponent } from './asistente-arrendamiento/asistente-arrendamiento.component';
 import { ReparadorComponent } from './reparador/reparador.component';
+import { AsesorVentaComponent } from './asesor-venta/asesor-venta.component';
+import { AsesorArriendoComponent } from './asesor-arriendo/asesor-arriendo.component';
+import { ClienteComponent } from './cliente/cliente.component';
  
 @NgModule({
   declarations: [
     AppComponent,
     AsistenteVentaComponent,
     AsistenteArrendamientoComponent,
-    ReparadorComponent
+    ReparadorComponent,
+    AsesorVentaComponent,
+    AsesorArriendoComponent,
+    ClienteComponent
   ],
   imports: [
     CommonModule,
